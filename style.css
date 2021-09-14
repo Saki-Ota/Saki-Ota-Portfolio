@@ -10,6 +10,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 10;
+    padding: 10px;
 }
 .topname{
     padding: 10px 20px;
@@ -35,5 +36,34 @@ header{
     top: 50%;
     left: 15%;
     font-size: 2em;
+    opacity: 0.5;
+}
 
+h2{
+    margin: 100px;
+    text-align: center;
+}
+
+#aboutme img{
+    width:  20%;
+    height: 30%;
+    object-fit: cover;
+    margin-left: 20%;
+    
+}
+
+#aboutme p{
+    display: inline-block;
+    width: 30%;
+    margin-left: 5%;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#aboutme span{
+    border:3px solid #5c8a8a;
+    padding: 10px;
+    background-color: #b3cccc;
+    color: #f5f5ef;
 }
