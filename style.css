@@ -70,13 +70,13 @@ h2{
     color: #f5f5ef;
 }
 
-#skills{
+#skills {
     background-color: #b3cccc;
     margin-top: 150px;
     display: block;
 }
 
-#skills h2{
+#skills h2 {
     margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
@@ -99,6 +99,47 @@ h2{
 }
 
 #projects p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#certificates {
+    background-color: #b3cccc;
+    margin-top: 150px;
+    display: block;
+}
+
+#certificates h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    color: #f5f5ef
+}
+
+#certificates img{
+    display: inline-block; 
+    width: 20%;
+    height:20%;
+    object-fit: cover;
+    margin: 20px;
+    padding: 20px;
+}
+
+#contact p{
+    font-size: 20px;
+    line-height: 1.5;
+    color:#5c8a8a;
+    margin-bottom: 100px;
+    text-align: center;
+}
+footer{
+    background-color:#b3cccc;
+    color: white;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
     text-align: center;
     font-size: 20px;
 }
