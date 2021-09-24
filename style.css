@@ -85,18 +85,17 @@ h2{
     color: #f5f5ef
 }
 
-#skills img{
+ #skills-img img{
+    width: 10%;
+    opacity: 0.5;
+    margin-bottom: 100px;
+} 
+
+#skills-img{
     display: flex;
     justify-content: center;
-    list-style: none;
-    width: 10%;
-    height:10%;
-    object-fit: cover;
-    opacity: 0.5;
-    margin: auto;
-    padding: 20px;
 
-}
+} 
 
 #projects p{
     text-align: center;
@@ -127,10 +126,9 @@ h2{
     padding: 20px;
 }
 
-#contact p{
+.contactme{
     font-size: 20px;
     line-height: 1.5;
-    color:#5c8a8a;
     margin-bottom: 100px;
     text-align: center;
 }
